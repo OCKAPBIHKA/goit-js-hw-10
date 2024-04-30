@@ -1,0 +1,62 @@
+/* 1-timer.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #7a9972;
+    color: #a52525;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 1rem;
+}
+
+.value {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.label {
+    font-size: 1.2rem;
+    color: #1c1a1a;
+}
+
+#datetime-picker {
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 0.25rem;
+    background-color: #ece8e8;
+    color: #1f1e1e;
+    margin-bottom: 1rem;
+}
+
+button[data-start] {
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 0.25rem;
+    background-color: #4caf50;
+    color: #f2f2f2;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+button[data-start]:disabled {
+    background-color: #361ad3;
+    cursor: not-allowed;
+}
